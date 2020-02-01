@@ -15,12 +15,12 @@ Install _fastlane_ using
 or alternatively using `brew cask install fastlane`
 
 # Available Actions
-## yingyang
-### yingyang production
+## web
+### web production
 ```
-fastlane yingyang production
+fastlane web production
 ```
-Deploy to yingyang.love
+Deploy to cheddur-shutdown.love
 
 ----
 
