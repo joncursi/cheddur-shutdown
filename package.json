@@ -95,7 +95,7 @@
     "dev": "npm-run-all --parallel dev:start",
     "dev:start": "unset NODE_ENV && dotenv -e .env -- nodemon",
     "production:deploy": "bundle exec fastlane web production",
-    "production:deploy:now": "now --dotenv=.env.production --debug",
+    "production:deploy:now": "now --dotenv=.env.production --force --debug",
     "start": "unset NODE_ENV && dotenv -e .env -- node app/.next/server/index.js",
     "test": "npm-run-all test:**",
     "test:lint:js": "eslint . --ext .js --quiet",

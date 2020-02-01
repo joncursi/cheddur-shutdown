@@ -20,7 +20,7 @@ or alternatively using `brew cask install fastlane`
 ```
 fastlane web production
 ```
-Deploy to cheddur-shutdown.love
+Deploy to production
 
 ----
 
