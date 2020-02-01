@@ -94,6 +94,8 @@
     "build": "NODE_OPTIONS=--max_old_space_size=8192 next build app && tsc --project app/tsconfig.json && tsc --project server/tsconfig.json",
     "dev": "npm-run-all --parallel dev:start",
     "dev:start": "unset NODE_ENV && dotenv -e .env -- nodemon",
+    "production:deploy": "bundle exec fastlane web production",
+    "production:deploy:now": "npm run build && now --dotenv=.env.production --debug",
     "start": "unset NODE_ENV && dotenv -e .env -- node app/.next/server/index.js",
     "test": "npm-run-all test:**",
     "test:lint:js": "eslint . --ext .js --quiet",

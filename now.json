@@ -1,0 +1,8 @@
+{
+  "engines": {
+    "node": "10.x"
+  },
+  "name": "cheddur-shutdown",
+  "public": true,
+  "version": 1
+}
