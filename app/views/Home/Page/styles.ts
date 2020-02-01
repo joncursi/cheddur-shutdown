@@ -29,7 +29,7 @@ export default css`
     flex: 1;
     height: 100%;
     justify-content: center;
-    margin: ${DIMS.LAYOUT_PADDING}px;
+    margin: 0 ${DIMS.LAYOUT_PADDING}px;
   }
   .contentContainer {
     background-color: ${COLORS.WHITE};
