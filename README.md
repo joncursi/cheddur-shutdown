@@ -2,6 +2,8 @@
 
 📣 Cheddur.com shutdown notice.
 
+[![CircleCI](https://circleci.com/gh/joncursi/cheddur-shutdown.svg?style=shield)](https://circleci.com/gh/joncursi/cheddur-shutdown)
+
 ## Getting Started
 
 1. Install node modules: `npm install`
