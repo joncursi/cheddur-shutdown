@@ -3,7 +3,7 @@
 !app/**
 !server
 !server/**
-!babelrc.js
+!.babelrc.js
 !next.config.js
 !now.json
 !package.json
