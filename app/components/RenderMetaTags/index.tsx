@@ -17,7 +17,7 @@ interface Props {
 
 const RenderMetaTags: React.FC<Props> = ({
   description,
-  imageUrl,
+  imageUrl = '/static/img/meta-default.jpg',
   keywords,
   noIndex,
   title,
