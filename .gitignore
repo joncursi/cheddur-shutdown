@@ -2,5 +2,6 @@
 .env
 .env.production
 .next
-dist
+fastlane/README.md
+fastlane/report.xml
 node_modules
