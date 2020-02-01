@@ -73,7 +73,7 @@ platform :web do
     )
   end
 
-  desc "Deploy to cheddur-shutdown.love"
+  desc "Deploy to production"
   lane :production do
     sh("npm run production:deploy:now")
   end
