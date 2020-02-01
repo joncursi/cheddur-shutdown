@@ -5,57 +5,77 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="00: Verifying fastlane version" time="0.006924">
+      <testcase classname="fastlane.lanes" name="00: Verifying fastlane version" time="0.005672">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="01: Verifying Ruby version" time="0.001218">
+      <testcase classname="fastlane.lanes" name="01: Verifying Ruby version" time="0.001032">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="02: ensure_git_branch" time="0.006473">
+      <testcase classname="fastlane.lanes" name="02: ensure_git_branch" time="0.007825">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="03: prompt" time="1.505627">
+      <testcase classname="fastlane.lanes" name="03: prompt" time="1.271651">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="04: bundle_install" time="0.382126">
+      <testcase classname="fastlane.lanes" name="04: bundle_install" time="0.428197">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="05: npm --no-git-tag-version version patch" time="0.340755">
+      <testcase classname="fastlane.lanes" name="05: npm --no-git-tag-version version patch" time="0.36143">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="06: node -p &quot;require('../package.json').version&quot;" time="0.0468">
+      <testcase classname="fastlane.lanes" name="06: node -p &quot;require('../package.json').version&quot;" time="0.048928">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="07: git commit -am &quot;chore(fastlane): Bump to v1.0.4&quot;" time="2.356395">
+      <testcase classname="fastlane.lanes" name="07: git commit -am &quot;chore(fastlane): Bump to v1.0.7&quot;" time="2.804893">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="08: push_to_git_remote" time="2.681743">
+      <testcase classname="fastlane.lanes" name="08: push_to_git_remote" time="2.842428">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="09: changelog_from_git_commits" time="0.019851">
+      <testcase classname="fastlane.lanes" name="09: changelog_from_git_commits" time="0.020486">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="10: npm run production:deploy:now" time="966.484949">
+      <testcase classname="fastlane.lanes" name="10: npm run production:deploy:now" time="411.317418">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="11: add_git_tag" time="0.013427">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="12: push_git_tags" time="4.37506">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="13: last_git_tag" time="0.015318">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="14: set_github_release" time="0.321067">
         
       </testcase>
     
