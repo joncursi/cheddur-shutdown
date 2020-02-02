@@ -6,16 +6,20 @@
 
 ## Getting Started
 
-1. Install node modules: `npm install`
+1. Install node modules:
+
+    ```shell
+    npm install
+    ```
 
 2. Create a `.env` file in the root of this project and fill it with
 [environment variables](https://github.com/joncursi/cheddur-shutdown/blob/master/.env.example).
 
 3. Start [Next.js](https://nextjs.org/) via [Express](https://expressjs.com/):
 
-  ```shell
-  npm run dev
-  ```
+    ```shell
+    npm run dev
+    ```
 
 ## npm Scripts
 
