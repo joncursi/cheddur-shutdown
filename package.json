@@ -19,7 +19,7 @@
     "react": "16.12.0",
     "react-dom": "16.12.0",
     "styled-jsx": "3.2.4",
-    "validator": "12.2.0"
+    "validator": "13.7.0"
   },
   "description": "📣 Cheddur.com shutdown notice.",
   "devDependencies": {
